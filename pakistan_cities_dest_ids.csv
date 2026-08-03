@@ -1,0 +1,80 @@
+query,matched_title,label,dest_id,dest_type,country_code,source,latitude,longitude
+Islamabad,Islamabad,"Islamabad, Islamabad Capital Territory, Pakistan",-2762812,CITY,pk,BRICK,33.728931427002,73.092414855957
+Karachi,Karachi,"Karachi, Sindh, Pakistan",-2764584,CITY,pk,BRICK,24.86669921875,67.0500030517578
+Lahore,Lahore,"Lahore, Punjab Region, Pakistan",-2767043,CITY,pk,BRICK,31.5621891021729,74.3228530883789
+Faisalabad,Faisalabad,"Faisalabad, Punjab Region, Pakistan",-2759985,CITY,pk,BRICK,31.4167003631592,73.0832977294922
+Rawalpindi,Rawalpindi,"Rawalpindi, Punjab Region, Pakistan",-2772585,CITY,pk,BRICK,33.5999984741211,73.0667037963867
+Multan,Multan,"Multan, Punjab Region, Pakistan",-2769709,CITY,pk,BRICK,30.1956005096436,71.4753036499023
+Gujranwala,Gujrānwāla,"Gujrānwāla, Punjab Region, Pakistan",-2761741,CITY,pk,BRICK,32.1500015258789,74.1832962036133
+Sialkot,Sialkot,"Sialkot, Punjab Region, Pakistan",-2774710,CITY,pk,BRICK,32.5,74.5167007446289
+Bahawalpur,Bahawalpur,"Bahawalpur, Punjab Region, Pakistan",-2755460,CITY,pk,BRICK,29.3999996185303,71.6832962036133
+Sargodha,Sargodha,"Sargodha, Punjab Region, Pakistan",-2773597,CITY,pk,BRICK,32.0835990905762,72.6710968017578
+Jhang,Jhang Sadr,"Jhang Sadr, Punjab Region, Pakistan",-2763544,CITY,pk,BRICK,31.2742004394531,72.311897277832
+Gujrat,Gujrāt,"Gujrāt, Punjab Region, Pakistan",-2761749,CITY,pk,BRICK,32.5666999816895,74.0832977294922
+Okara,Okāra,"Okāra, Punjab Region, Pakistan",-2770831,CITY,pk,BRICK,30.8080997467041,73.44580078125
+Sahiwal,Sāhīwāl,"Sāhīwāl, Punjab Region, Pakistan",-2773039,CITY,pk,BRICK,30.6667003631592,73.0999984741211
+Dera Ghazi Khan,Dera Ghāzi Khān,"Dera Ghāzi Khān, Punjab Region, Pakistan",-2759087,CITY,pk,BRICK,30.0561008453369,70.6343994140625
+Mianwali,Miānwāli,"Miānwāli, Punjab Region, Pakistan",-2769101,CITY,pk,BRICK,31.88330078125,73.0999984741211
+Sadiqabad,Sadiqabad,"Sadiqabad, Punjab Region, Pakistan",-2772932,CITY,pk,BRICK,28.2999992370605,70.13330078125
+Burewala,Burewāla,"Burewāla, Punjab Region, Pakistan",6122097,CITY,pk,BRICK,29.8999996185303,70.6027984619141
+Khanewal,Khānewāla,"Khānewāla, Punjab Region, Pakistan",6053492,CITY,pk,BRICK,30.2332992553711,71.511100769043
+Hafizabad,Hāfizābad,"Hāfizābad, Punjab Region, Pakistan",6096485,CITY,pk,BRICK,32.2318992614746,73.0749969482422
+Muzaffargarh,Muzaffargarh,"Muzaffargarh, Punjab Region, Pakistan",-2769931,CITY,pk,BRICK,30.0666999816895,71.1999969482422
+Chiniot,Chiniot,"Chiniot, Punjab Region, Pakistan",-2758272,CITY,pk,BRICK,31.7199993133545,72.9788970947266
+Kamoke,Kāmoke,"Kāmoke, Punjab Region, Pakistan",-2764363,CITY,pk,BRICK,31.9743995666504,74.2244033813477
+Jhelum,Jhelum,"Jhelum, Punjab Region, Pakistan",-2763572,CITY,pk,BRICK,32.9333000183105,73.7332992553711
+Shorkot,Shorkot,"Shorkot, Punjab Region, Pakistan",35575,CITY,pk,BRICK,31.3988990783691,74.0317001342773
+Muridke,Murīdke,"Murīdke, Punjab Region, Pakistan",-2769843,CITY,pk,BRICK,31.8024997711182,74.2617034912109
+Attock,Attock City,"Attock City, Punjab Region, Pakistan",-2755087,CITY,pk,BRICK,33.7722015380859,72.3683013916016
+Toba Tek Singh,Toba Tek Singh,"Toba Tek Singh, Punjab Region, Pakistan",-2776385,CITY,pk,BRICK,30.9666996002197,72.4832992553711
+Jampur,Jāmpur,"Jāmpur, Punjab Region, Pakistan",6120558,CITY,pk,BRICK,28.4055995941162,69.877799987793
+Kabirwala,Kabīrwāla,"Kabīrwāla, Punjab Region, Pakistan",6138308,CITY,pk,BRICK,29.6597003936768,71.9957962036133
+Chakwal,Chakwāl,"Chakwāl, Punjab Region, Pakistan",-2757729,CITY,pk,BRICK,32.9333000183105,72.86669921875
+Mian Channu,Miān Channūn,"Miān Channūn, Punjab Region, Pakistan",-2769041,CITY,pk,BRICK,30.4500007629395,72.36669921875
+Narowal,Nārowāl,"Nārowāl, Punjab Region, Pakistan",-2770262,CITY,pk,BRICK,32.0167007446289,72.5999984741211
+Arifwala,Ārifwāla,"Ārifwāla, Punjab Region, Pakistan",6134006,CITY,pk,BRICK,30.1347007751465,70.6624984741211
+Gojra,Gojra,"Gojra, Punjab Region, Pakistan",-2761169,CITY,pk,BRICK,31.6499996185303,73.1832962036133
+Wazirabad,Wazīrābād,"Wazīrābād, Punjab Region, Pakistan",-2777211,CITY,pk,BRICK,32.4500007629395,74.11669921875
+Gujar Khan,Gūjar Khān,"Gūjar Khān, Punjab Region, Pakistan",-2761721,CITY,pk,BRICK,33.2667007446289,73.3167037963867
+Kot Radha Kishan,Kot Rādha Kishan,"Kot Rādha Kishan, Punjab Region, Pakistan",-2766567,CITY,pk,BRICK,31.1725006103516,74.0997009277344
+Renala Khurd,Renāla Khurd,"Renāla Khurd, Punjab Region, Pakistan",-2772645,CITY,pk,BRICK,30.88330078125,73.5999984741211
+Murree,Murree,"Murree, Punjab Region, Pakistan",-2769851,CITY,pk,BRICK,33.9053916931152,73.3903427124023
+Hyderabad,Hyderabad,"Hyderabad, Sindh, Pakistan",-2762685,CITY,pk,BRICK,25.36669921875,68.36669921875
+Sukkur,Sukkur,"Sukkur, Sindh, Pakistan",-2775228,CITY,pk,BRICK,27.7000007629395,68.86669921875
+Larkana,Lārkāna,"Lārkāna, Sindh, Pakistan",-2767368,CITY,pk,BRICK,27.5499992370605,68.2166976928711
+Khairpur,Khairpur,"Khairpur, Sindh, Pakistan",-2777775,CITY,pk,BRICK,27.5333003997803,68.7667007446289
+Sanghar,Sānghar,"Sānghar, Sindh, Pakistan",-2773428,CITY,pk,BRICK,26.0333003997803,68.9499969482422
+Kotri,Kotri,"Kotri, Sindh, Pakistan",-2766578,CITY,pk,BRICK,25.36669921875,68.3000030517578
+Matiari,Matiāri,"Matiāri, Sindh, Pakistan",-2768842,CITY,pk,BRICK,25.6000003814697,68.4499969482422
+Tando Muhammad Khan,Tando Muhammad Khān,"Tando Muhammad Khān, Sindh, Pakistan",-2775694,CITY,pk,BRICK,25.13330078125,68.5333023071289
+Jamshoro,Jām Shoro (Jamshoro),"Jām Shoro (Jamshoro), Sindh, Pakistan",-2763206,CITY,pk,BRICK,25.4333000183105,68.3332977294922
+Peshawar,Peshawar,"Peshawar, Federally Administered Tribal Area , Pakistan",-2771364,CITY,pk,BRICK,34.0018997192383,71.5594024658203
+Mardan,Mardan,"Mardan, Federally Administered Tribal Area , Pakistan",-2768636,CITY,pk,BRICK,34.2000007629395,72.0333023071289
+Mingora,Mingora,"Mingora, Federally Administered Tribal Area , Pakistan",-2769132,CITY,pk,BRICK,34.7832984924316,72.36669921875
+Kohat,Kohāt,"Kohāt, Federally Administered Tribal Area , Pakistan",-2765988,CITY,pk,BRICK,33.5833015441895,71.4332962036133
+Abbottabad,Abbottābād,"Abbottābād, Federally Administered Tribal Area , Pakistan",-2754270,CITY,pk,BRICK,34.170955657959,73.2256622314453
+Dera Ismail Khan,Dera Ismāīl Khān,"Dera Ismāīl Khān, Federally Administered Tribal Area , Pakistan",-2759095,CITY,pk,BRICK,31.8332996368408,70.9000015258789
+Bannu,Bannu,"Bannu, Federally Administered Tribal Area , Pakistan",-2755885,CITY,pk,BRICK,32.9869003295898,70.6069030761719
+Swabi,Swābi,"Swābi, Federally Administered Tribal Area , Pakistan",-2775427,CITY,pk,BRICK,34.11669921875,72.4666976928711
+Nowshera,Nowshera,"Nowshera, Federally Administered Tribal Area , Pakistan",6093042,CITY,pk,BRICK,34.0,72.0
+Charsadda,Chārsadda,"Chārsadda, Federally Administered Tribal Area , Pakistan",-2757926,CITY,pk,BRICK,34.1511001586914,71.7369003295898
+Mansehra,Mānsehra,"Mānsehra, Federally Administered Tribal Area , Pakistan",-2768564,CITY,pk,BRICK,34.3333015441895,73.1999969482422
+Haripur,Harīpur,"Harīpur, Federally Administered Tribal Area , Pakistan",-2762306,CITY,pk,BRICK,33.997200012207,72.9336013793945
+Chitral,Chitral,"Chitral, Federally Administered Tribal Area , Pakistan",-2758303,CITY,pk,BRICK,35.8418998718262,71.7818984985352
+Shangla,Shāngla,"Shāngla, Federally Administered Tribal Area , Pakistan",6147449,CITY,pk,BRICK,34.8889007568359,72.6082992553711
+Nathia Gali,Nathia Gali,"Nathia Gali, Federally Administered Tribal Area , Pakistan",-2770324,CITY,pk,BRICK,34.0666999816895,73.4000015258789
+Naran,Nārān,"Nārān, Federally Administered Tribal Area , Pakistan",-2770204,CITY,pk,BRICK,34.9000015258789,73.6500015258789
+Quetta,Quetta,"Quetta, Balochistan, Pakistan",-2772048,CITY,pk,BRICK,30.2000007629395,67.0
+Gwadar,Gwādar,"Gwādar, Balochistan, Pakistan",-2761961,CITY,pk,BRICK,25.1156005859375,62.3283004760742
+Turbat,Turbat,"Turbat, Balochistan, Pakistan",-2776605,CITY,pk,BRICK,26.002799987793,63.0505981445312
+Panjgur,Panjgūr,"Panjgūr, Balochistan, Pakistan",-2771106,CITY,pk,BRICK,26.9666996002197,64.0999984741211
+Kohlu,Kohlu,"Kohlu, Balochistan, Pakistan",-2766015,CITY,pk,BRICK,29.8999996185303,69.25
+Muzaffarabad,Muzaffarabad,"Muzaffarabad, Azad Jammu and Kashmir, Pakistan",-2769929,CITY,pk,BRICK,34.36669921875,73.4666976928711
+Mirpur,Mīrpur,"Mīrpur, Azad Jammu and Kashmir, Pakistan",-2769230,CITY,pk,BRICK,34.4500007629395,73.8167037963867
+Kotli,Kotli,"Kotli, Azad Jammu and Kashmir, Pakistan",-2766427,CITY,pk,BRICK,33.5167007446289,73.9167022705078
+Rawalakot,Rāwala Kot (Rawlakot),"Rāwala Kot (Rawlakot), Azad Jammu and Kashmir, Pakistan",-2777863,CITY,pk,BRICK,33.86669921875,73.7667007446289
+Bagh,Bāgh,"Bāgh, Azad Jammu and Kashmir, Pakistan",-2755348,CITY,pk,BRICK,33.9832992553711,73.7833023071289
+Gilgit,Gilgit,"Gilgit, Gilgit-Baltistan, Pakistan",-2761060,CITY,pk,BRICK,35.9166984558105,74.3000030517578
+Skardu,Skardu,"Skardu, Gilgit-Baltistan, Pakistan",-2774916,CITY,pk,BRICK,35.2999992370605,75.61669921875
+Hunza,Hunza,"Hunza, Gilgit-Baltistan, Pakistan",-2762645,CITY,pk,BRICK,36.2667007446289,74.6832962036133
+Chilas,Chilās,"Chilās, Gilgit-Baltistan, Pakistan",-2758230,CITY,pk,BRICK,35.4333000183105,74.0832977294922
