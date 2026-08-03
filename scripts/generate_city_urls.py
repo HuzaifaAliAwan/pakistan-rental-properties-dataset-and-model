@@ -5,10 +5,10 @@ using only the parameters confirmed to actually matter for the search
 else in a real browser URL (label, sid, aid, ac_*, ssne, etc.) is
 session/tracking noise and is intentionally left out.
 
-Usage:
-    .venv/bin/python generate_city_urls.py \\
-        --input pakistan_cities_dest_ids.csv \\
-        --output pakistan_cities_search_urls.csv \\
+Usage (run from the project root):
+    .venv/bin/python scripts/generate_city_urls.py \\
+        --input data/reference/pakistan_cities_dest_ids.csv \\
+        --output data/reference/pakistan_cities_search_urls.csv \\
         --checkin 2026-08-06 \\
         --checkout 2026-08-07
 """
@@ -69,8 +69,8 @@ def main(input_file, output_file, checkin, checkout, group_adults, no_rooms, gro
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", default="pakistan_cities_dest_ids.csv")
-    parser.add_argument("--output", default="pakistan_cities_search_urls.csv")
+    parser.add_argument("--input", default="data/reference/pakistan_cities_dest_ids.csv")
+    parser.add_argument("--output", default="data/reference/pakistan_cities_search_urls.csv")
     parser.add_argument("--checkin", default="2026-08-06")
     parser.add_argument("--checkout", default="2026-08-07")
     parser.add_argument("--group-adults", type=int, default=2)

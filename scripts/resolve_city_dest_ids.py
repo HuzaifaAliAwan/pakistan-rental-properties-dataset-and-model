@@ -2,13 +2,13 @@
 Resolve Booking.com `dest_id` values for a list of city names using the
 same GraphQL AutoComplete endpoint the real search box calls.
 
-Usage:
-    .venv/bin/python resolve_city_dest_ids.py \\
-        --cities-file pakistan_cities.txt \\
-        --output-file pakistan_cities_dest_ids.csv \\
+Usage (run from the project root):
+    .venv/bin/python scripts/resolve_city_dest_ids.py \\
+        --cities-file data/reference/pakistan_cities.txt \\
+        --output-file data/reference/pakistan_cities_dest_ids.csv \\
         --delay 2.5
 
-This is intentionally kept separate from main.ipynb.
+This is intentionally kept separate from the notebooks.
 """
 
 import argparse
@@ -167,8 +167,8 @@ async def main(cities_file, output_file, delay_seconds, headless):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--cities-file", default="pakistan_cities.txt")
-    parser.add_argument("--output-file", default="pakistan_cities_dest_ids.csv")
+    parser.add_argument("--cities-file", default="data/reference/pakistan_cities.txt")
+    parser.add_argument("--output-file", default="data/reference/pakistan_cities_dest_ids.csv")
     parser.add_argument("--delay", type=float, default=2.5, help="Seconds to wait between lookups")
     parser.add_argument("--headless", action="store_true", default=True)
     args = parser.parse_args()
