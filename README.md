@@ -69,3 +69,9 @@ playwright install chromium
 
 - Exploratory analysis + report on the combined dataset.
 - Price-prediction model using `Price_pkr` as the target.
+
+## License & data provenance
+
+The code in this repository (scrapers, notebooks, helper scripts) is licensed under the [MIT License](LICENSE).
+
+That license covers the code only. The contents of `Extracted Data/` (property names, prices, review counts, images, etc.) are scraped from Booking.com and remain Booking.com's data, subject to Booking.com's own terms of service — the MIT license does not extend to it, and it is included here for personal/educational analysis, not for redistribution or commercial use.
