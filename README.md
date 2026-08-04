@@ -11,8 +11,8 @@ A Playwright-based scraper that collects hotel/property listing data from Bookin
 │   ├── processed/       # all_cities_combined.csv (all cities concatenated) + future cleaned datasets
 │   └── reference/       # city list + dest_id lookups + generated search URLs
 ├── notebooks/
-│   ├── main.ipynb              # single-city scraper/prototype
-│   └── main_all_cities.ipynb   # multi-city scraper (the one actually used to build data/raw)
+│   ├── scrape_data_from_single_link.ipynb   # single-city scraper/prototype
+│   └── scrape_data_of_all_cities.ipynb      # multi-city scraper (the one actually used to build data/raw)
 ├── scripts/
 │   ├── resolve_city_dest_ids.py
 │   └── generate_city_urls.py
@@ -30,13 +30,13 @@ A Playwright-based scraper that collects hotel/property listing data from Bookin
 
 | Path | Purpose |
 |---|---|
-| `notebooks/main.ipynb` | Single-city scraper/prototype. Scrapes one Booking.com search-results URL end to end (load all results, extract fields, clean, save). Useful as a template or for testing selector changes against one city before running the full batch. |
-| `notebooks/main_all_cities.ipynb` | Multi-city scraper. Loops through every URL in `data/reference/pakistan_cities_search_urls.csv`, reusing the same browser session, and saves one CSV per city into `data/raw/` plus a combined dataset in `data/processed/`. |
+| `notebooks/scrape_data_from_single_link.ipynb` | Single-city scraper/prototype. Scrapes one Booking.com search-results URL end to end (load all results, extract fields, clean, save). Useful as a template or for testing selector changes against one city before running the full batch. |
+| `notebooks/scrape_data_of_all_cities.ipynb` | Multi-city scraper. Loops through every URL in `data/reference/pakistan_cities_search_urls.csv`, reusing the same browser session, and saves one CSV per city into `data/raw/` plus a combined dataset in `data/processed/`. |
 | `data/reference/pakistan_cities.txt` | Curated list of ~80 major Pakistani cities/towns (all provinces + AJK + Gilgit-Baltistan), hand-verified to avoid name collisions with same-named small villages. |
 | `scripts/resolve_city_dest_ids.py` | Resolves each city name in `pakistan_cities.txt` to its Booking.com `dest_id` via the same GraphQL `AutoComplete` endpoint the live search box uses. Only accepts `BRICK`-sourced (Booking's own verified index) `CITY`+`pk` matches. |
 | `data/reference/pakistan_cities_dest_ids.csv` | Output of the resolver: city name → `dest_id`, `dest_type`, coordinates, etc. |
 | `scripts/generate_city_urls.py` | Builds a ready-to-scrape Booking.com search URL for each resolved city (stripped of session/tracking noise — only `ss`, `dest_id`, `dest_type`, `checkin`/`checkout`, and group params). |
-| `data/reference/pakistan_cities_search_urls.csv` | Output of the URL generator: one search URL per city, consumed by `main_all_cities.ipynb`. |
+| `data/reference/pakistan_cities_search_urls.csv` | Output of the URL generator: one search URL per city, consumed by `scrape_data_of_all_cities.ipynb`. |
 | `data/raw/` | Scraper output — one CSV per city. |
 | `data/processed/all_cities_combined.csv` | All cities concatenated with a `city` column — the file to start analysis from. |
 
@@ -50,7 +50,7 @@ data/reference/pakistan_cities_dest_ids.csv
         │  scripts/generate_city_urls.py
         ▼
 data/reference/pakistan_cities_search_urls.csv
-        │  notebooks/main_all_cities.ipynb
+        │  notebooks/scrape_data_of_all_cities.ipynb
         ▼
 data/raw/*.csv + data/processed/all_cities_combined.csv
 ```
@@ -78,7 +78,7 @@ All commands below are run from the **project root**.
    ```bash
    python scripts/generate_city_urls.py --checkin 2026-09-15 --checkout 2026-09-17
    ```
-3. **Run the scraper**: open `notebooks/main_all_cities.ipynb` in Jupyter and run all cells. This launches a real (non-headless) Chromium window and works through every city in `data/reference/pakistan_cities_search_urls.csv`, writing into `data/raw/` and `data/processed/`.
+3. **Run the scraper**: open `notebooks/scrape_data_of_all_cities.ipynb` in Jupyter and run all cells. This launches a real (non-headless) Chromium window and works through every city in `data/reference/pakistan_cities_search_urls.csv`, writing into `data/raw/` and `data/processed/`.
 
 ## Current dataset snapshot
 
